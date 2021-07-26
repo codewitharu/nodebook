@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityShow"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="#DCE8E8">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+    <TextView
+        android:id="@+id/showdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="right"
+        android:paddingBottom="20dp"
+        android:text="TextView"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/showtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linebox"></TextView>
+
+    <TextView
+        android:id="@+id/showdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+       />
+
+
+</LinearLayout>
